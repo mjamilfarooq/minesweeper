@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.field {
+  width: 25px;
+  height: 25px;
+  border-radius: 0px;
+  padding: 5px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: blue;
+}
+
+.field > img {
+  width: 10px;
+  height: 10px;
+}
+
+.restart {
+  width: 25px;
+  height: 25px;
+  border-radius: 0px;
+  padding: 2px;
+}
+
+.restart > img {
+  width: 15px;
+  height: 15px;
+}
+
+.minefield {
+  border-width: 5px;
+  border-color: blue;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.minefield > tbody > tr > td {
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.clock {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: red;
+  background-color: black;
+}
+
+.controlpanel > img {
+  width: 10px;
+  height: 10px;
+}
+
+.scoreboard {
+  border: 0px;
+}
+
+.scoreboard > img {
+  width: 20px;
+  height: 20px;
+  padding-top: 6px;
+}
