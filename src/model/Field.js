@@ -4,7 +4,7 @@ function FieldData(i, j) {
   this.i = i;
   this.j = j;
   this.flag = false;
-  if (Math.random() < 0.01) {
+  if (Math.random() < 0.2) {
     this.number = -1;
     this.isMine = true;
   } else {
