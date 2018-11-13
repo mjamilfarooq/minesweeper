@@ -1,5 +1,7 @@
 ## Responsive Mine Sweeper with React and Redux
 
+Live @ https://mjamilfarooq.github.io/minesweeperbuild/
+
 ### Components
 
 1. MinerApp a containr for main components.
